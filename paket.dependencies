@@ -1,0 +1,17 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+
+nuget Newtonsoft.Json >= 13.0
+nuget Serilog >= 3.0
+
+group Build
+source https://api.nuget.org/v3/index.json
+
+nuget Fake.Core.Target >= 6.0
+
+group Test
+source https://api.nuget.org/v3/index.json
+
+nuget NUnit >= 3.13
+nuget NUnit3TestAdapter >= 4.0

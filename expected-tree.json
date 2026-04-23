@@ -1,0 +1,169 @@
+{
+  "_comment": "Expected dependency tree for paket-dependency-groups probe. Fields marked PLACEHOLDER must be substituted by the scan runner at comparison time. This probe validates that Mend detects packages from ALL GROUP sections in paket.lock, not only the default Main group.",
+  "updateType": "OVERRIDE",
+  "type": "UA",
+  "agent": "paket",
+  "agentVersion": "PLACEHOLDER",
+  "pluginVersion": "PLACEHOLDER",
+  "orgToken": "PLACEHOLDER",
+  "userKey": "PLACEHOLDER",
+  "timeStamp": 0,
+  "requesterEmail": "PLACEHOLDER",
+  "aggregateModules": false,
+  "preserveModuleStructure": true,
+  "extraProperties": {
+    "contributionsAvailable": "PLACEHOLDER",
+    "commitUrl": "PLACEHOLDER",
+    "gitHubInstallationId": "PLACEHOLDER",
+    "scmApplicationId": "PLACEHOLDER",
+    "branchName": "main",
+    "checkRunId": "PLACEHOLDER",
+    "userOrgToken": "PLACEHOLDER",
+    "commitId": "PLACEHOLDER",
+    "scmInstallationId": "PLACEHOLDER",
+    "repository": "paket-dependency-groups",
+    "scaResults": "PLACEHOLDER"
+  },
+  "scanSummaryInfo": {
+    "totalElapsedTime": 0,
+    "stepsSummaryInfo": [],
+    "packageManagers": ["paket"],
+    "isPrivileged": false,
+    "scanMethod": {
+      "type": "UA"
+    }
+  },
+  "contributions": [],
+  "projects": [
+    {
+      "projectToken": "PLACEHOLDER",
+      "dependencies": [
+        {
+          "groupId": "",
+          "artifactId": "Newtonsoft.Json",
+          "version": "13.0.3",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Serilog",
+          "version": "3.1.1",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "Serilog.Sinks.Console",
+              "version": "4.1.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "paket.lock",
+              "dependencyType": "NUGET",
+              "dependencyFile": "paket.lock",
+              "children": null
+            }
+          ]
+        },
+        {
+          "groupId": "",
+          "artifactId": "Fake.Core.Target",
+          "version": "6.0.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "Fake.Core.Process",
+              "version": "6.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "paket.lock",
+              "dependencyType": "NUGET",
+              "dependencyFile": "paket.lock",
+              "children": [
+                {
+                  "groupId": "",
+                  "artifactId": "Fake.Core.Trace",
+                  "version": "6.0.0",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "paket.lock",
+                  "dependencyType": "NUGET",
+                  "dependencyFile": "paket.lock",
+                  "children": [
+                    {
+                      "groupId": "",
+                      "artifactId": "FSharp.Core",
+                      "version": "6.0.7",
+                      "systemPath": "",
+                      "optional": false,
+                      "filename": "paket.lock",
+                      "dependencyType": "NUGET",
+                      "dependencyFile": "paket.lock",
+                      "children": null
+                    }
+                  ]
+                },
+                {
+                  "groupId": "",
+                  "artifactId": "FSharp.Core",
+                  "version": "6.0.7",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "paket.lock",
+                  "dependencyType": "NUGET",
+                  "dependencyFile": "paket.lock",
+                  "children": null
+                }
+              ]
+            },
+            {
+              "groupId": "",
+              "artifactId": "FSharp.Core",
+              "version": "6.0.7",
+              "systemPath": "",
+              "optional": false,
+              "filename": "paket.lock",
+              "dependencyType": "NUGET",
+              "dependencyFile": "paket.lock",
+              "children": null
+            }
+          ]
+        },
+        {
+          "groupId": "",
+          "artifactId": "NUnit",
+          "version": "3.14.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "NUnit3TestAdapter",
+          "version": "4.5.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Newtonsoft.Json
+Serilog
+
+group Build
+Fake.Core.Target
+
+group Test
+NUnit
+NUnit3TestAdapter
